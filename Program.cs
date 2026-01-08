@@ -4,8 +4,8 @@ public class Kata
 {
     public static string GetDrinkByProfession(string p)
     {
-        string profession = "";
         switch(p.ToLower()){
+           
             case "jabroni":
                 return ("Patron Tequila");
                 break;
